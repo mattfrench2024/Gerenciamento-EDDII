@@ -1,0 +1,56 @@
+﻿## Ignore arquivos de build e temporários do Visual Studio / .NET ##
+# Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# Cache, logs e temporários
+*.log
+*.vspscc
+*.user
+*.suo
+*.cache
+*.pdb
+*.opendb
+*.tmp
+*.bak
+*.ncb
+*.res
+*.aps
+
+# Diretório do Visual Studio
+.vs/
+
+# Configurações locais
+*.userosscache
+*.sln.docstates
+*.local.json
+
+# Arquivos de publicação
+publish/
+*.Publish.xml
+
+# Pacotes NuGet (baixados automaticamente)
+*.nupkg
+packages/
+!**/packages/build/
+*.snupkg
+
+# Backup do Windows / Mac
+Thumbs.db
+ehthumbs.db
+.DS_Store
+
+# Outros
+*.obj
+*.exe
+*.dll
+*.app
+*.dbmdl
+*.sqlite
+*.db
